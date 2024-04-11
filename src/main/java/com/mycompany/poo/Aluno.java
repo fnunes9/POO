@@ -24,7 +24,16 @@ public class Aluno {
     public int  GetRa(){
         return ra;
     }
-    public int GetIdade(){
+    public int GetAnoNascimento(){
         return anoNascimento;
+    }
+    
+    
+    
+    
+    
+    @Override
+    public String toString(){
+        return "Nome: "+nome+" R.A: "+ra+" Ano: "+anoNascimento;
     }
 }

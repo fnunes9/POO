@@ -13,6 +13,7 @@ public class POO {
 
     public static void main(String[] args) {
         Aluno aluno1= new Aluno("Fernanda", 321,2000);
-        System.out.println(aluno1);
+        System.out.println(aluno1.toString());
+        System.out.println(Métodos.CalculaIdade());
     }
 }
