@@ -8,32 +8,43 @@ package com.mycompany.poo;
  *
  * @author fernanda.nunes
  */
-public class Aluno {
+class Aluno {
+
     String nome;
     int ra, anoNascimento;
-    
-    public  Aluno(String nome, int ra, int anoNascimento){
-        this.nome=nome;
-        this.ra=ra;
-        this.anoNascimento=anoNascimento;
+
+    public Aluno(String nome, int ra, int anoNascimento) {
+        this.nome = nome;
+        this.ra = ra;
+        this.anoNascimento = anoNascimento;
     }
-    
-    public String GetNome(){
+
+    public String GetNome() {
         return nome;
     }
-    public int  GetRa(){
+
+    public void SetNome(String NovoNome) {
+        nome = NovoNome;
+    }
+
+    public int GetRa() {
         return ra;
     }
-    public int GetAnoNascimento(){
+
+    public void SetRa(int NovoRa) {
+        ra = NovoRa;
+    }
+
+    public int GetAnoNascimento() {
         return anoNascimento;
     }
-    
-    
-    
-    
-    
+
+    public void SetAnoNascimento(int NovoAno) {
+        anoNascimento = NovoAno;
+    }
+
     @Override
-    public String toString(){
-        return "Nome: "+nome+" R.A: "+ra+" Ano: "+anoNascimento;
+    public String toString() {
+        return "Nome: " + nome + " R.A: " + ra + " Ano: " + anoNascimento;
     }
 }

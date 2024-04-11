@@ -9,7 +9,8 @@ package com.mycompany.poo;
  * @author fernanda.nunes
  */
 public class Metodos {
-    public int CalculaIdade(int anoNascimento){
-        return 2024-anoNascimento;
+
+    public static int CalculaIdade(int anoNascimento) {
+        return 2024 - anoNascimento;
     }
 }
