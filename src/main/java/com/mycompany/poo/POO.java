@@ -12,6 +12,7 @@ package com.mycompany.poo;
 public class POO {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Aluno aluno1= new Aluno("Fernanda", 321,2000);
+        System.out.println(aluno1);
     }
 }
